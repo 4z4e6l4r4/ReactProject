@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/*Navbar*/
+.header1 {
+  width: 100%;
+  float: left;
+background-color: #3019342b;
+  text-align: center;
+  padding: 2%;
+}
+.menuItem1 {
+  align-items: center;
+  display: inline;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: 2px;
+  background-color: #30193449;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px #301934;
+  transition: background-color 950ms;
+}
+
+.menuItem1:hover {
+  color: #301934;
+  background-color: #ba81c4c6;
+}
+
+.menuItem1 a {
+  text-decoration: none;
+  color: #301934;
+}
+
+.menuItem1 a:hover {
+  color: #301934;
+}
+
+
+
+/*Start - Benim eklediklerim*/
+.header-body{
+  background-color: #312834;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #cd61fb;
+}
+
+.img{
+  animation: img-spin infinite 20s linear;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  padding-bottom: 50px;
+}
+
+.form{
+  text-align: center;
+}
+/* End - Benim eklediklerim*/
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
