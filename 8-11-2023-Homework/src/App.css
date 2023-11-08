@@ -1,0 +1,128 @@
+*{
+  background-color: #dfebeb;
+}
+.App {
+  text-align: center;
+  background-color: #a8d1d1;
+  border-radius: 300px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.App input{
+  border-radius: 15px;
+  text-align: center;
+  margin: 3px;
+  padding: 4px;
+  display: block;
+  position: relative;
+  margin-left: 150px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 2px 2px 0 0 #282c34;
+}
+
+.App input:hover{
+  background-color: #a8d1d1;
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Button */
+.addBtn{
+ background-color:  #87bcd2;
+ border: #282c34 2px dashed;
+ border-radius: 50px;
+ padding: 10px;
+ margin: 10px;
+ transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+ box-shadow: 0 0 2px #282c34;
+}
+
+.addBtn:hover{
+  background-color: #b2d7e7;
+  transform: scale(1.07);
+  box-shadow: 0 0 20px #282c34;
+}
+
+.deleteBtn{
+  background-color: #fbb2b2;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 7px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 0 2px #282c34;
+
+}
+
+.deleteBtn:hover{
+  background-color: #FFCBCB; 
+  transform: scale(1.07);
+  box-shadow: 0 0 10px #282c34;
+}
+
+.updateBtn{
+  background-color: #C9E4DE;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 7px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 0 2px #282c34;
+}
+.updateBtn:hover{
+  background-color: #F8F3E8;
+  transform: scale(1.07);
+  box-shadow: 0 0 10px #282c34;
+}
+
+/* list */
+.list ul{
+  border: #282c34 2px 0px 0px 1px solid;
+  padding: 3px;
+  margin: 10px;
+}
+
+.list li{
+  background-color: #E4F1EE;
+  border-radius: 50px;
+  border: #282c34 2px 0px 0px 1px solid;
+  padding: 3px;
+  margin: 10px;
+  list-style-type: none;
+  transition: transform 0.5s ease-in-out, box-shadow 0.8s ease-in-out;
+  box-shadow: 0 0 2px #282c34;
+}
+
+  .list li:hover{
+    background-color: #cce0db;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px #282c34;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
