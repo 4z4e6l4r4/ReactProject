@@ -11,6 +11,8 @@ function MyMovieList() {
     const [MovieDescription, setMovieDescription] = useState("");
     const [MovieDirector, setMovieDirector] = useState("");
     const [MovieMainCharacter, setMovieMainCharacter] = useState("");
+    const [MovieMainCharacter2, setMovieMainCharacter2] = useState("");
+
     //Bunu dışardan alma kaç gün kaldığını sistem kendisi göstersin. 
 
     const addMovie = () => {
