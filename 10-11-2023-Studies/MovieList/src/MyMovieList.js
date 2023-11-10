@@ -1,9 +1,13 @@
 import React, { useState } from "react";
-
-// Kategori navbarı yap, 
+//prop kullanarak kategori miktarını değiştir
 //kategorilere göre filmler listelenesin 
-//en az 10 input gir
 //Resim Ekle
+
+//prop ile hazırla
+//favori ekle ve çıkar (if-else ile yap)
+//favori listesini hazırla ve kaç kişi favoriye eklediyse göster.
+//listelerde 0 ile bulunmasın
+
 
 function MyMovieList() {
     const [MovieList, setMovieList] = useState([]);
@@ -11,10 +15,34 @@ function MyMovieList() {
     const [MovieDescription, setMovieDescription] = useState("");
     const [MovieDirector, setMovieDirector] = useState("");
     const [MovieMainCharacter, setMovieMainCharacter] = useState("");
-
-    //Bunu dışardan alma kaç gün kaldığını sistem kendisi göstersin. 
+    const [MovieCategory, setMovieCategory] = useState("");
+    const [counter, setCounter] = useState(0);
+    const [img, setImg] = useState("");
+    const [CategoryList, setCategoryList] = useState([{id:0, name:"Horror", count: counter},
+    {id:1, name:"Thriller", count: counter},
+    {id:2, name:"War",  count: counter},
+    {id:3, name:"Historical",  count: counter},
+    {id:4, name:"Politics", count: counter}]);
+     //Bunu dışardan alma kaç gün kaldığını sistem kendisi göstersin. 
 
     const addMovie = () => {
+        console.log(img);
+
+       const newCategoryList = CategoryList.map(
+            (category) => {
+                if (MovieCategory == category.id) {
+                        category.count += 1;
+                   
+                    return category;
+                }
+                
+                    return category;
+                
+            }
+        );
+        
+        setCategoryList(newCategoryList);
+
         setMovieList([...MovieList, {
             MovieName,
             MovieDescription,
@@ -25,6 +53,8 @@ function MyMovieList() {
         setMovieDescription("");
         setMovieDirector("");
         setMovieMainCharacter("");
+
+        setCounter("");
     }
 
     const updateMovie = (item, index) => {
@@ -56,24 +86,31 @@ function MyMovieList() {
                 <div className="inputs">
                     <h1>Movie Information</h1>
                     <br />
+                    <input type="file" onChange={(e) => setImg(URL.createObjectURL(e.target.files[0]))}/>                    
                     <input type="text" value={MovieName} onChange={(e) => setMovieName(e.target.value)} placeholder="Movie Name" />
                     <input type="text" value={MovieDescription} onChange={(e) => setMovieDescription(e.target.value)} placeholder="Movie Description" />
                     <input type="text" value={MovieDirector} onChange={(e) => setMovieDirector(e.target.value)} placeholder="Movie Director" />
                     <input type="text" value={MovieMainCharacter} onChange={(e) => setMovieMainCharacter(e.target.value)} placeholder="Movie Main Character" />
+                    
+                        <select value={MovieCategory} onChange={(e) => setMovieCategory(e.target.value) }> 
+                            {CategoryList.map((category, index) => (
+                                <option value={category.id} key={index}>{category.name}</option>
+                            )                        
+                            )}
+                        </select>
+                        <br/>
 
                     <button className="addBtn" onClick={addMovie}>Add Movie</button>
                 </div>
 
                 <div className="navbar">
                     <ul>
-                        {MovieList.map((item, index) => (
-                                <li key={index}>
-                                        <h4>{item.MovieName}</h4>
-                                </li>
-                        ))
-
-                        }
+                    {CategoryList.map((category, index) => (
+                                <li key={index}>{category.name}: {category.count}</li>
+                            )                        
+                            )}
                     </ul>
+                               
                 </div>
 
             </div>
@@ -82,10 +119,12 @@ function MyMovieList() {
                 <ul>
                     {MovieList.map((item, index) => (
                         <li key={index}>
+                            <img src={img} alt="images" />
                             <h3>{item.MovieName}&nbsp; </h3>
                             <p>{item.MovieDescription}&nbsp; </p>
                             <p>{item.MovieDirector}&nbsp;</p>
                             <p>{item.MovieMainCharacter}&nbsp;</p>
+
                             <button className='deleteBtn' onClick={() => deleteMovie(index)}>Delete</button>
                             <button className='updateBtn' onClick={() => updateMovie(item, index)}>Update</button>
                         </li>
