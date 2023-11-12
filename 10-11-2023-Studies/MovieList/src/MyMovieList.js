@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-//prop kullanarak kategori miktarını değiştir
-//kategorilere göre filmler listelenesin 
-//Resim Ekle
 
 //prop ile hazırla
 //favori ekle ve çıkar (if-else ile yap)
@@ -79,7 +76,7 @@ function MyMovieList() {
                 <p>My Notes of Watched Movies</p>
             </div>
 
-            <div className="body">
+            <div className="mainBody">
             
 
             <div className="listPart">
