@@ -1,0 +1,168 @@
+{
+  "kategoriler": [
+    {
+      "id": 1,
+      "ad": "Felsefe"
+    },
+    {
+      "id": 2,
+      "ad": "Bilim"
+    },
+    {
+      "id": 3,
+      "ad": "Sanat"
+    },
+    {
+      "id": 4,
+      "ad": "Edebiyat"
+    },
+    {
+      "id": 5,
+      "ad": "Psikoloji"
+    },
+    {
+      "id": 6,
+      "ad": "Teoloji"
+    }
+  ],
+  "bloglar": [
+    {
+      "id": 1,
+      "kategoriId": 1,
+      "baslik": "Yeni Felsefi Akımlar",
+      "aciklama": "Yirminci yüzyılın sonlarına doğru ortaya çıkan yeni felsefi akımlar, geleneksel düşünce kalıplarını sarsarak postmodern, feminist, çevreci ve teknoloji odaklı perspektifleri içerir",
+      "resim": "https://picsum.photos/800/600",
+      "favoriSayisi": 15,
+      "banner": "1",
+        "date": "2023-01-01",
+      "tag": [
+        "felsefe",
+        "felsefi akımlar",
+        "filozoflar"
+      ]
+    },
+    {
+      "id": 2,
+      "kategoriId": 2,
+      "baslik": "Güncel Bilimsel Çalışmalar",
+      "aciklama": "Yeni bilim, geleneksel sınırları zorlayarak yapay zeka, biyoteknoloji ve uzay keşifleri gibi alanlarda ortaya çıkan yenilikçi bilimsel yaklaşımları kapsayan bir dönemi temsil eder.",
+      "resim": "https://picsum.photos/810/600",
+      "favoriSayisi": 10,
+      "banner": 1,
+      "date": "2023-01-01",
+      "tag": [
+        "güncel",
+        "bilim",
+        "makale"
+      ]
+    },
+    {
+      "id": 3,
+      "kategoriId": 3,
+      "baslik": "Sanat Ödülleri",
+      "aciklama": "Yeni sanat ödülleri, geleneksel normları sorgulayarak çağdaş sanatın çeşitliliğini ve yenilikçi ifade biçimlerini öne çıkaran bir platform olarak sanat dünyasına yeni bir perspektif sunmaktadır.",
+      "resim": "https://picsum.photos/801/600",
+      "favoriSayisi": 20,
+      "banner": 0,
+      "date": "2023-05-11",
+      "tag": [
+        "sanat",
+        "çağdaş sanat",
+        "modern sanat"
+      ]
+    },
+    {
+      "id": 4,
+      "kategoriId": 4,
+      "baslik": "Edebiyat",
+      "aciklama": "Yeni edebiyat akımları, geleneksel sınırları aşarak çoksesli anlatımlar, dijital platformlarda yayıncılık ve postmodern temalar aracılığıyla çağdaş dünyanın karmaşıklığına odaklanan bir evrimi temsil etmektedir.",
+      "resim": "https://picsum.photos/802/600",
+      "favoriSayisi": 18,
+      "banner": 0,
+        "date": "2023-06-28",
+      "tag": [
+        "edebiyat",
+        "kitap",
+        "yazar"
+      ]
+    },
+    {
+      "id": 5,
+      "kategoriId": 5,
+      "baslik": "Psikoloji",
+      "aciklama": "Yeni psikoloji, bireyin zihinsel sağlığını, dijital teknolojilerin etkisi altındaki toplumsal dinamikleri ve kültürel çeşitliliği anlamaya yönelik modern bakış açıları ve araştırma yöntemleri sunarak geleneksel psikoloji paradigmalarını genişletiyor.",
+      "resim": "https://picsum.photos/803/600",
+      "favoriSayisi": 22,
+      "banner": 1,
+        "date": "2023-07-15",
+      "tag": [
+        "psikoloji",
+        "psikolojik sorunlar",
+        "tanı"
+      ]
+    },
+    {
+      "id": 6,
+      "kategoriId": 6,
+      "baslik": "Teoloji",
+      "aciklama": "Yeni teoloji, geleneksel dini kavramları günümüzün entelektüel ve kültürel bağlamına uyarlayarak, çağdaş dünyanın sorunlarına ve felsefi zorluklarına yanıt arayan dinî düşünce akımlarını ifade eder.",
+      "resim": "https://picsum.photos/800/601",
+      "favoriSayisi": 17,
+      "banner": 0,
+        "date": "2023-08-01",
+      "tag": [
+        "din",
+        "izmler",
+        "din tarihi"
+      ]
+    },
+    
+    {
+      "id": 7,
+      "kategoriId": 7,
+      "baslik": "Okunması Gereken En İyi Kitaplar",
+      "aciklama": "Edebiyat dünyasının başyapıtlarını keşfedin. Klasik eserlerden çağdaş romanlara, okunması gereken en iyi kitapları sıralıyoruz.",
+      "resim": "https://picsum.photos/804/600",
+      "favoriSayisi": 28,
+      "banner": 0,
+        "date": "2023-11-01",
+      "tag": [
+        "kitap",
+        "edebiyat",
+        "klasik"
+      ]
+    },
+    
+    {
+      "id": 8,
+      "kategoriId": 8,
+      "baslik": "Evrim Teorisi ve Bilimsel Tartışmalar",
+      "aciklama": "Evrim teorisinin bilimsel tartışmalara etkisi. Charles Darwin'in evrim teorisinin günümüzdeki yeri ve bilimsel topluluktaki tartışmaları ele alıyoruz.",
+      "resim": "https://picsum.photos/800/606",
+      "favoriSayisi": 10,
+      "banner": 0,
+        "date": "2023-06-11",
+      "tag": [
+        "evrim",
+        "bilim",
+        "darwin"
+      ]
+    },
+    {
+      "id": 9,
+      "kategoriId": 9,
+      "baslik": "Modern Sanat Akımları",
+      "aciklama": "Sanat dünyasındaki modern akımların incelenmesi. Çağdaş sanatın farklı akımları ve sanatçılarının eserleri üzerine detaylı bir bakış sunuyoruz.",
+      "resim": "https://picsum.photos/806/600",
+      "favoriSayisi": 20,
+      "banner": 0,
+        "date": "2023-07-28",
+      "tag": [
+        "sanat",
+        "çağdaş sanat",
+        "modern sanat"
+      ]
+    }
+    
+  ]
+}
