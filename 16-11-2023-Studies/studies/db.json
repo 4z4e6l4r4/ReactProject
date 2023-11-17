@@ -27,19 +27,19 @@
   ],
   "bloglar": [
     {
-      "id": 1,
       "kategoriId": 1,
       "baslik": "Yeni Felsefi Akımlar",
       "aciklama": "Yirminci yüzyılın sonlarına doğru ortaya çıkan yeni felsefi akımlar, geleneksel düşünce kalıplarını sarsarak postmodern, feminist, çevreci ve teknoloji odaklı perspektifleri içerir",
       "resim": "https://picsum.photos/800/600",
-      "favoriSayisi": 15,
+      "favoriSayisi": 16,
       "banner": "1",
-        "date": "2023-01-01",
+      "date": "2023-01-01",
       "tag": [
         "felsefe",
         "felsefi akımlar",
         "filozoflar"
-      ]
+      ],
+      "id": 1
     },
     {
       "id": 2,
@@ -79,7 +79,7 @@
       "resim": "https://picsum.photos/802/600",
       "favoriSayisi": 18,
       "banner": 0,
-        "date": "2023-06-28",
+      "date": "2023-06-28",
       "tag": [
         "edebiyat",
         "kitap",
@@ -87,19 +87,19 @@
       ]
     },
     {
-      "id": 5,
       "kategoriId": 5,
       "baslik": "Psikoloji",
       "aciklama": "Yeni psikoloji, bireyin zihinsel sağlığını, dijital teknolojilerin etkisi altındaki toplumsal dinamikleri ve kültürel çeşitliliği anlamaya yönelik modern bakış açıları ve araştırma yöntemleri sunarak geleneksel psikoloji paradigmalarını genişletiyor.",
       "resim": "https://picsum.photos/803/600",
-      "favoriSayisi": 22,
+      "favoriSayisi": 23,
       "banner": 1,
-        "date": "2023-07-15",
+      "date": "2023-07-15",
       "tag": [
         "psikoloji",
         "psikolojik sorunlar",
         "tanı"
-      ]
+      ],
+      "id": 5
     },
     {
       "id": 6,
@@ -109,14 +109,13 @@
       "resim": "https://picsum.photos/800/601",
       "favoriSayisi": 17,
       "banner": 0,
-        "date": "2023-08-01",
+      "date": "2023-08-01",
       "tag": [
         "din",
         "izmler",
         "din tarihi"
       ]
     },
-    
     {
       "id": 7,
       "kategoriId": 7,
@@ -125,14 +124,13 @@
       "resim": "https://picsum.photos/804/600",
       "favoriSayisi": 28,
       "banner": 0,
-        "date": "2023-11-01",
+      "date": "2023-11-01",
       "tag": [
         "kitap",
         "edebiyat",
         "klasik"
       ]
     },
-    
     {
       "id": 8,
       "kategoriId": 8,
@@ -141,7 +139,7 @@
       "resim": "https://picsum.photos/800/606",
       "favoriSayisi": 10,
       "banner": 0,
-        "date": "2023-06-11",
+      "date": "2023-06-11",
       "tag": [
         "evrim",
         "bilim",
@@ -156,13 +154,12 @@
       "resim": "https://picsum.photos/806/600",
       "favoriSayisi": 20,
       "banner": 0,
-        "date": "2023-07-28",
+      "date": "2023-07-28",
       "tag": [
         "sanat",
         "çağdaş sanat",
         "modern sanat"
       ]
     }
-    
   ]
 }
